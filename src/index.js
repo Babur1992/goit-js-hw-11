@@ -70,8 +70,6 @@ async function searchImages(event) {
       gallery.innerHTML = images;
       loadMoreBtn.style.display = 'inline';
       loadMoreBtn.style.display = 'block';
-      // margin = ' 0 auto';
-      margin = 'left';
       border: 'none';
       padding: '15px';
       cursor: 'pointer';
