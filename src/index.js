@@ -88,9 +88,9 @@ async function searchImages(event) {
     }
   } catch (error) {
     console.log(error);
-    Notiflix.Notify.failure(
-      'Oops, something went wrong. Please try again later.'
-    );
+    // Notiflix.Notify.failure(
+    //   'Oops, something went wrong. Please try again later.'
+    // );
   }
 }
 
